@@ -1,3 +1,4 @@
+const faker = require('faker');
 const getRandomElement = (array) => {
     const randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
@@ -5,27 +6,27 @@ const getRandomElement = (array) => {
   
   const generateRandomMessage = () => {
     const starters = [
-      "Believe in yourself",
-      "Stay positive",
-      "Dream big",
-      "Embrace challenges",
-      "Focus on your goals",
+      "I love you more",
+      "Lily loves you most",
+      "Tom Sandoval is a liar",
+      "You're a foot fetishist",
+      "You're a horse girl at heart",
     ];
   
     const middles = [
-      "and you will succeed",
-      "and great things will happen",
-      "and you'll overcome any obstacle",
-      "and you'll find happiness",
-      "and you'll make a difference",
+      "and you have impeccable taste",
+      "and can't mix hot and cold foods",
+      "and bequeth very smelly farts",
+      "and you give the best gifts",
+      "and you make me happy",
     ];
   
     const endings = [
-      "no matter what",
-      "one step at a time",
-      "in the face of adversity",
-      "with passion and determination",
-      "because you're capable",
+      "always",
+      "Sharon!",
+      "despite being a colonialist",
+      "despite you loving feet",
+      "because you're a strong independent woman who don't need no man",
     ];
   
     const starter = getRandomElement(starters);
@@ -37,11 +38,3 @@ const getRandomElement = (array) => {
   };
   
   console.log(generateRandomMessage());
-
-
-/*
-I love you more
-Lily loves you the most
-Tom Sandoval is a Liar!
-You're a foot fetishist
-*/
